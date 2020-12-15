@@ -21,5 +21,13 @@ namespace Shipping.Tests
       Parscel newParscel = new Parscel(2,3,4);
       Assert.AreEqual((24), newParscel.Volume());
     }
+
+    [TestMethod]
+    public void CalculateCostToShip_ReturnsPriceBasedOnWeightAndVolume_CostToShip()
+    {
+      Parscel newParscel = new Parscel(3,4,1,44);
+      Assert.AreEqual((int SomeCost),returnedResult )
+    }
+
   }
 }
